@@ -90,8 +90,11 @@
 
     <main class="py-4">
         <div class="col-12">
-        </div>
+        @include('flash.error')
+        @include('flash.messages')
+        @include('flash.status')
         @yield('content')
+        </div>
     </main>
 </div>
 </body>
