@@ -56,6 +56,13 @@ class QuestionController extends Controller
             'body.required' => 'Body is required',
             'body.min' => 'Body must be at least 5 characters',
         ]);
+        //$input1 = $request->validate([
+          //  'tag' => 'required|min:5',
+        //], [
+           // 'tag.required' => 'Tag is required',
+         //   'tag.min' => 'Tag must be at least 5 characters',
+       // ]);
+        //input3[]= {input,$input1};
         $input = request()->all();
         $question = new Question($input);
         $question->user()->associate(Auth::user());
