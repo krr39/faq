@@ -6,8 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Question extends Model
 {
-    protected $fillable = ['body'];
-    protected $fill =['tag'];
+    protected $fillable = ['body','tag'];
     public function user()
     {
         return $this->belongsTo('App\User');

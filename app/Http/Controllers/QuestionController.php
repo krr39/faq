@@ -52,6 +52,7 @@ class QuestionController extends Controller
     {
         $input = $request->validate([
             'body' => 'required|min:5',
+            'tag'=> 'required',
         ], [
             'body.required' => 'Body is required',
             'body.min' => 'Body must be at least 5 characters',
