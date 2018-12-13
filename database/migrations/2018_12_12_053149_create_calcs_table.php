@@ -15,6 +15,9 @@ class CreateCalcsTable extends Migration
     {
         Schema::create('calcs', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('question_weightage');
+            $table->integer('no_of_questions')->nullable();
+            $table->integer('total')->nullable();
             $table->timestamps();
         });
     }
