@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
+use App\Calc;
 
 class CalculatorController extends Controller
 {
@@ -11,10 +13,7 @@ class CalculatorController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        //
-    }
+
 
     /**
      * Show the form for creating a new resource.
@@ -23,7 +22,9 @@ class CalculatorController extends Controller
      */
     public function create()
     {
-        //
+         $Calc= new Calc();
+
+        return redirect()->route('home')->with('message', 'IT WORKS!');
     }
 
     /**
