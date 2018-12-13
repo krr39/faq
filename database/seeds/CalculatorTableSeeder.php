@@ -11,6 +11,6 @@ class CalculatorTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+
     }
 }
