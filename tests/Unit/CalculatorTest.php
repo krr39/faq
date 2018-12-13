@@ -17,4 +17,9 @@ class CalculatorTest extends TestCase
     {
         $this->assertTrue(true);
     }
+    public function testSave()
+    {
+        $calc = factory(\App\Calc::class)->make();
+        $this->assertTrue($calc->save());
+    }
 }

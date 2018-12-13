@@ -2,7 +2,7 @@
 
 use Faker\Generator as Faker;
 
-$factory->define(Model::class, function (Faker $faker) {
+$factory->define(App\Calc::class, function (Faker $faker) {
     return [
         //
         'question_weightage' => $faker->randomNumber(2),
