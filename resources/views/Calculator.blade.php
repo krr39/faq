@@ -4,6 +4,11 @@
 <head>
     <title>Calulator to calculate the score</title>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+        form,input,button { margin:10px;
+            width: 297px;
+        }
+    </style>
 
 </head>
 
