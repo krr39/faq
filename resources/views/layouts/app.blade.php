@@ -41,7 +41,7 @@
                 <a class="navbar-brand" href="{{ route('home') }}">
                     Home
                 </a>
-                <a class="dropdown-item" href="/home/krutika/PhpstormProjects/faq/resources/views/Calculator.blade.php">Calculator</a>
+                <a class="dropdown-item" href="{{ route('Calculator') }}">Calculator</a>
             @endguest
 
 

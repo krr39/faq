@@ -5,7 +5,7 @@
         <div class="row ">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">My Profile</div>
+                    <div class="card-header">HI</div>
                     <div class="card-body ">
                         <p>Calculator</p>
                     </div>

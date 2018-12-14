@@ -23,8 +23,10 @@ class CalculatorController extends Controller
     public function create()
     {
          $Calc= new Calc();
-
-        return redirect()->route('home')->with('message', 'IT WORKS!');
+        //$user = Auth::user();
+       // $Calc = $user->Calc;
+        return view('Calculator')->with('message', 'IT WORKS!');
+        //return redirect()->route('')->with('message', 'IT WORKS!');
     }
 
     /**
