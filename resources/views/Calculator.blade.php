@@ -8,8 +8,42 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#no_of_questions').focus();
+            var fn = "";
+            var sn = "";
+            var result = 0;
+            var operator = "";
+
+            $('#slide').click(function () {
+                $('#flip').slideToggle("slow");
+            });
+            $('#1,#2,#3,#4,#5,#6,#7,#8,#9,#0').click(function () {
+                if (result == 0) {
+                    fn += $(this).val();
+                    $('#question_weightage').val(fn);
+                }
+                else if (result == 1) {
+                    sn += $(this).val();
+                    $('#no_of_questions').val(sn);
+                }
+                else {
+                    $('#no_of_questions').focus();
+                }
+
+            });
+
+            $('#plus,#subtract,#divide,#product').click(function () {
+                $('#no_of_questions').focus();
+                operator = $(this).val();
+                result = 1;
+
+            });
 
 
+        });
+    </script>
 
     <style>
         form,input,button { margin:10px;
