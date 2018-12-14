@@ -1,4 +1,4 @@
-@extends('layouts.app')
+<html>
 <body>
 
     <input type="button" id="slide" value="Calculator"/>&nbsp;
