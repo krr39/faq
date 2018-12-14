@@ -1,4 +1,12 @@
 <html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Calulator to calculate the score</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+
 <body>
 
     <input type="button" id="slide" value="Calculator"/>&nbsp;
@@ -29,6 +37,6 @@
         </form>
     </div>
 
-<!--<div style="background:98bf21#;height:100px;width:100px;position:absolute;"></div>-->
+
 </body>
 </html>
