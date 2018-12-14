@@ -41,6 +41,34 @@
 
             });
 
+            $('#equals').click(function () {
+                if (operator == "+") {
+                    var AddResult = parseInt(fn) + parseInt(sn);
+                    $('#total').val(AddResult);
+                }
+                else if (operator == "-") {
+                    var AddResult = parseInt(fn) - parseInt(sn);
+                    $('#total').val(AddResult);
+                }
+                else if (operator == "*") {
+                    var AddResult = parseInt(fn) * parseInt(sn);
+                    $('#total').val(AddResult);
+                }
+                else {
+                    var AddResult = parseInt(fn) / parseInt(sn);
+                    $('#total').val(AddResult);
+                }
+            });
+
+            $('#C').click(function () {
+
+                $('#total').val('');
+                $('#question_weightage').val('');
+                $('#no_of_questions').val('');
+                fn = '';
+                sn = '';
+                $('#no_of_questions').focus();
+            });
 
         });
     </script>
