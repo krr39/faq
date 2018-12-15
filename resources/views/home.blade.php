@@ -17,6 +17,7 @@
                                         <div class="card mb-3 ">
                                             <div class="card-header">
                                                 <small class="text-muted">
+
                                                    Updated: {{ $question->created_at->diffForHumans() }}
                                                     Answers: {{ $question->answers()->count() }}
 
@@ -27,7 +28,7 @@
                                             </div>
                                             <div class="card-footer">
                                                 <p class="card-text">
-
+                                                    Tag:{{$question->tag}}
                                                     <a class="btn btn-primary float-right" href="{{ route('question.show',['id' => $question->id]) }}">
                                                         View
                                                     </a>
