@@ -51,8 +51,6 @@
                                 <div class="card-body"> No Answers</div>
                             </div>
                         @endforelse
-
-
                     </div>
                 </div>
             </div>
