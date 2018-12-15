@@ -20,6 +20,7 @@
                             <div class="form-group">
                                 {!! Form::label('tag', 'Tag') !!}
                                 {!! Form::text('tag', $question->body, ['class' => 'form-control','required' => 'required']) !!}
+                                <p>Add # before adding tag and space between tag keywords</p>
                             </div>
                         <button class="btn btn-success float-right" value="submit" type="submit" id="submit">Save
                         </button>
