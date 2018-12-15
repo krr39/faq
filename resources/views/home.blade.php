@@ -28,8 +28,8 @@
                                             </div>
                                             <div class="card-footer">
                                                 <p class="card-text">
-                                                    
-                                                    <label for="tag">{{$question->tag}} </label>
+
+                                                    <label for="tag" style="color:#5bc0de">{{$question->tag}} </label>
 
                                                     <a class="btn btn-primary float-right" href="{{ route('question.show',['id' => $question->id]) }}">
                                                         View
