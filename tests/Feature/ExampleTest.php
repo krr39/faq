@@ -28,4 +28,9 @@ class ExampleTest extends TestCase
         $response = $this->get('/login');
         $response->assertStatus(200);
     }
+    public function testCalcPageStatusCode()
+    {
+        $response = $this->get('/Calculator');
+        $response->assertStatus(200);
+    }
 }
