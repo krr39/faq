@@ -4,7 +4,8 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-
+use  app\Question;
+use app\user;
 class QuestionTest extends TestCase
 {
     /**
@@ -18,6 +19,15 @@ class QuestionTest extends TestCase
         $user->save();
         $question = factory(\App\Question::class)->make();
         $question->user()->associate($user);
+        $this->assertTrue($question->save());
+    }
+
+    //unitest inserting tag and question  in question form
+    public function testInsertQuestionTagTable()
+    {
+        $question= new Question();
+        $question->question = '#Who is the president of USA?';
+        $question->tag = '#Knowledge #USA';
         $this->assertTrue($question->save());
     }
 }

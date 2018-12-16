@@ -33,4 +33,9 @@ class ExampleTest extends TestCase
         $response = $this->get('/Calculator');
         $response->assertStatus(200);
     }
+    public function testQuestionPageStatusCode()
+    {
+        $response = $this->get('/question');
+        $response->assertStatus(200);
+    }
 }
