@@ -26,8 +26,11 @@ class QuestionTest extends TestCase
     public function testInsertQuestionTagTable()
     {
         $question= new Question();
-        $question->question = '#Who is the president of USA?';
+        $question->id= 1234;
+        $question->user_id= 1;
+        $question->body = '#Who is the president of USA?';
         $question->tag = '#Knowledge #USA';
         $this->assertTrue($question->save());
     }
+
 }
