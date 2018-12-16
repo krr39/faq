@@ -3,7 +3,7 @@
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-12">
+            <div class="col-md-12 col-sm-12 col-lg-6">
                 <div class="card">
                     <div class="card-header">My Profile</div>
                     <div class="card-body">
@@ -16,7 +16,7 @@
                             {!! Form::label('fname', 'First Name') !!}
                             {!! Form::text('fname', $profile->fname, ['class' => 'form-control','required' => 'required']) !!}
                         </div>
-                        <div class="form-group">
+                        <div class="form-group ">
                             {!! Form::label('lname', 'Last Name') !!}
                             {!! Form::text('lname', $profile->lname, ['class' => 'form-control','required' => 'required']) !!}
                         </div>
