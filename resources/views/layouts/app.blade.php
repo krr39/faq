@@ -25,7 +25,7 @@
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-expand-md navbar-light navbar-laravel" role="navigation">
+    <nav class="navbar navbar-expand-md navbar-light navbar-laravel" style="background:teal" role="navigation">
         <div class="container">
 
             @guest
