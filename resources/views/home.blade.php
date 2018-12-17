@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
-                <div class="card">
+                <div class="card" style="background-color:#dca7a7">
                     <div class="card-header">Questions
                         <a class="btn btn-primary float-right" href="{{ route('question.create') }}">
                             Create a Question
