@@ -16,7 +16,7 @@ Note: see calculatorTest.php
 Test 3: Unit test to inserting tag and question  in question form (QuestionTest.php)
 Test 4: Test to check the status of calculator page is 200 or not ( ExampleText.php)
 
-I have added 1 feature which is not in the syllabus and 1 design page and one addition field in Question page.
+I have added 1 feature which is not in the syllabus and 1 design page and 1 additional field in Question page.
 
 UserStory 1: Calculator
 
