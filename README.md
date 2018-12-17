@@ -21,8 +21,7 @@ I have added 1 feature which is not in the syllabus and 1 design page and 1 addi
 UserStory 1: Calculator
 
 Steps to perform:
-1: Register or Login to the project (login to twila.hintz@example.net or hershel66@example.org and password will be “secret”)
-
+1: Register or Login to the project 
 2: You will be redirect to home page
 3: Click on calculator 
 4: Through your mouse/Keyboard add one integer value in 1st textbox
@@ -30,7 +29,6 @@ Steps to perform:
 6: Same way add 2nd integer value into the 2nd textbox
 7: Click on = button to see the result of operation of two number
 8: Click on C button to clear both textbox
-
 
 User Story 2: Slide the calculator up and down by clicking Calculator button
 1: Click on Calculator button which on top the page to slide up the calculator.
