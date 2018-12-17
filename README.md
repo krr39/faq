@@ -18,7 +18,7 @@ Test 4: Test to check the status of calculator page is 200 or not ( ExampleText.
 
 I have added 1 feature which is not in the syllabus and 1 design page and 1 additional field in Question page.
 
-UserStory 1: Calculator
+UserStory 1: Feature Calculatorto calculate question and answers
 
 Steps to perform:
 1: Register or Login to the project 
@@ -45,4 +45,5 @@ User Story 3: Feature Tag:
 
 
 User Story 4: Home page:
-Click on next to see the next images and read the question and answer present over the slide images.
+1: http://miniproj2krr29.herokuapp.com/ or if you or any other page, just click on Laravel which is at top left corner of the page
+2:Click on next to see the next images and read the question and answer present over the slide images.
